@@ -1,0 +1,331 @@
+{
+  "id": "a6bffc07-fb5e-483e-ab58-1aa13caf4aaa",
+  "version": "2.0",
+  "name": "Add product to cart",
+  "url": "https://sneakerdaily.vn/danh-muc-san-pham/sneaker/",
+  "tests": [{
+    "id": "03b63583-981c-4fc1-a707-15bb6cbc7601",
+    "name": "TC_05",
+    "commands": [{
+      "id": "bd0ef0f4-77c4-4040-834c-1d7bc8913334",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/danh-muc-san-pham/sneaker/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "117ae0a0-d456-4921-8587-85381c714820",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "855x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df5a94b1-d4ed-4dcb-b781-e320e83568b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(4) .main-image",
+      "targets": [
+        ["css=.item:nth-child(4) .main-image", "css:finder"],
+        ["xpath=//img[@alt='giày air jordan 1 mid carbon fiber / all-star black dd1649-001']", "xpath:img"],
+        ["xpath=//div[@id='shop-products']/div/div[2]/ul/li[4]/div/figure/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[4]/div/figure/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f3015ba-430f-48e9-b541-c3e068b99abb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\34 0-5 > .thwvsf-item-span",
+      "targets": [
+        ["css=.\\34 0-5 > .thwvsf-item-span", "css:finder"],
+        ["xpath=//div[@id='product-35706']/div/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr/td[2]/div/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//td[2]/div/ul/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'40.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5aeb804-9424-4d75-b942-1a0a0f6e8c78",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_66bb46510c0d5",
+      "targets": [
+        ["id=quantity_66bb46510c0d5", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb46510c0d5", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb46510c0d5']", "xpath:attributes"],
+        ["xpath=//div[@id='product-35706']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b7023c-3269-417f-ad5c-8d3b921a9c43",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_66bb46510c0d5",
+      "targets": [
+        ["id=quantity_66bb46510c0d5", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb46510c0d5", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb46510c0d5']", "xpath:attributes"],
+        ["xpath=//div[@id='product-35706']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "d433ea64-469a-43c5-a6de-a5e517ea01d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single_add_to_cart_button",
+      "targets": [
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-35706']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'THÊM VÀO GIỎ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad6dba46-b1de-4489-9490-60ea1a6dbedd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Thanh toán",
+      "targets": [
+        ["linkText=Thanh toán", "linkText"],
+        ["css=.checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Thanh toán')]", "xpath:link"],
+        ["xpath=//div[@id='minicart-panel']/div/p[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sneakerdaily.vn/thanh-toan/')]", "xpath:href"],
+        ["xpath=//p[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d3919d27-3934-4b34-b080-e28bf2397770",
+    "name": "TC_06",
+    "commands": [{
+      "id": "67c266df-b688-4eed-9fd1-d8a50586e13f",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/danh-muc-san-pham/sneaker/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da48a186-2299-432c-9cf7-115a7fa30d98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "855x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6243c7e1-c5a4-44bb-90ff-5efbbede9b67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(5) .main-image",
+      "targets": [
+        ["css=.item:nth-child(5) .main-image", "css:finder"],
+        ["xpath=//img[@alt=\"giày nam off-white x air jordan 1 retro high og 'unc' aq0818-148\"]", "xpath:img"],
+        ["xpath=//div[@id='shop-products']/div/div[2]/ul/li[5]/div/figure/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[5]/div/figure/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3de2979-d745-4604-b1e4-3cb061e2a400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\34 4 > .thwvsf-item-span",
+      "targets": [
+        ["css=.\\34 4 > .thwvsf-item-span", "css:finder"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr/td[2]/div/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//td[2]/div/ul/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcba6b68-8ec8-4581-a8a7-ca0393711406",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_66bb4beba2859",
+      "targets": [
+        ["id=quantity_66bb4beba2859", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb4beba2859", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb4beba2859']", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "951c2cc4-ad0e-4c8f-aad8-19fb63954ee8",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_66bb4beba2859",
+      "targets": [
+        ["id=quantity_66bb4beba2859", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb4beba2859", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb4beba2859']", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a227c384-e27e-43d7-b644-2a507dfd0005",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=quantity_66bb4beba2859",
+      "targets": [
+        ["id=quantity_66bb4beba2859", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb4beba2859", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb4beba2859']", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5166a0d5-bb3f-4610-b605-6b38a440b104",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.single_add_to_cart_button",
+      "targets": [
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'THÊM VÀO GIỎ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8323c83c-9d5f-4603-8341-fcec9c64438e",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_66bb4beba2859",
+      "targets": [
+        ["id=quantity_66bb4beba2859", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_66bb4beba2859", "css:finder"],
+        ["xpath=//input[@id='quantity_66bb4beba2859']", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "100000000000000000"
+    }, {
+      "id": "9ff84b9b-4703-4d0f-b259-5b2b6a24ce57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55246547-3852-44fb-b3fb-1f9212d9a74f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single_add_to_cart_button",
+      "targets": [
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'THÊM VÀO GIỎ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c71559-b79b-4129-8196-3601a0c1b567",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.single_add_to_cart_button",
+      "targets": [
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-41622']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'THÊM VÀO GIỎ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "293660e5-d7bf-44df-99dd-e436d1d8fbe7",
+    "name": "TC_07",
+    "commands": [{
+      "id": "81d72255-228b-4860-bb0a-3ca7c5f76007",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/danh-muc-san-pham/sneaker/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "673eddc5-9fcc-4eb1-be1d-b5f542953ee8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "858x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4661a7c8-2a91-4daa-8d8f-eb4998dd452d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(2) .main-image",
+      "targets": [
+        ["css=.item:nth-child(2) .main-image", "css:finder"],
+        ["xpath=//img[@alt='giày nam dior x air jordan 1 high cn8607-002']", "xpath:img"],
+        ["xpath=//div[@id='shop-products']/div/div[2]/ul/li[2]/div/figure/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/figure/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f47ff808-06c2-4409-9c5c-5a6341b3c1fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\34 2",
+      "targets": [
+        ["css=.\\34 2", "css:finder"],
+        ["xpath=//div[@id='product-43239']/div/div[2]/div/div[2]/div/div[3]/form/table/tbody/tr/td[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//td[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'42')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2414a616-9536-4c27-a74e-a6e4bcf7d052",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et-wishlist-div-open .plus",
+      "targets": [
+        ["css=.et-wishlist-div-open .plus", "css:finder"],
+        ["xpath=//div[@id='product-43239']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c47648-52c8-4e62-8e85-d317c971fd7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single_add_to_cart_button",
+      "targets": [
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-43239']/div/div[2]/div/div[2]/div/div[3]/form/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'THÊM VÀO GIỎ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "404e4622-2eb0-4ad3-b89d-eb5a4465ccf1",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Chọn các tùy chọn cho sản phẩm trước khi cho sản phẩm vào giỏ hàng của bạn.",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3936752b-141b-4f10-8624-eadb3d012c01",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sneakerdaily.vn/danh-muc-san-pham/sneaker/"],
+  "plugins": []
+}

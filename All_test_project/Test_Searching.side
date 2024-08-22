@@ -1,0 +1,336 @@
+{
+  "id": "3621a424-9e5c-41cf-af2a-47f7fd5db8b7",
+  "version": "2.0",
+  "name": "Test_Searching",
+  "url": "https://sneakerdaily.vn/",
+  "tests": [{
+    "id": "a5c6707e-be8e-4d42-a29d-09b5061b2dbe",
+    "name": "TC_02",
+    "commands": [{
+      "id": "7ec0269a-8ac5-4c59-880a-884449f01dd4",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2392852a-e357-4ea6-925e-b19e4f3c4637",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edac3813-7eef-4cd9-933b-564690fae312",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feather-search",
+      "targets": [
+        ["css=.feather-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa036ef-62e5-4ba4-9f15-30c405b97535",
+      "comment": "",
+      "command": "type",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Giày 43"
+    }, {
+      "id": "3f68ffa4-fbf8-491a-8232-0785819936d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76ad1a1b-640d-4079-a317-110c74076075",
+    "name": "TC_03",
+    "commands": [{
+      "id": "41da58bf-99a6-46c4-a8c0-2bcd2e96017f",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d676577e-1b18-4dba-9d9c-97629bf87221",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c381d6f1-d1ba-4106-9df5-0a975bd53656",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feather-search",
+      "targets": [
+        ["css=.feather-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "484dff3f-e1dd-47b1-bd71-6bf6cb4b6518",
+      "comment": "",
+      "command": "click",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e3e39f0-9202-4c4b-83c3-f90d64bdc5db",
+      "comment": "",
+      "command": "type",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Giày Off-White"
+    }, {
+      "id": "78684d3a-37f3-413a-9c68-057f9cb994f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "50c38523-5cb1-4c99-b763-08fd1aa6c783",
+    "name": "TC_05",
+    "commands": [{
+      "id": "e96d5729-2443-4116-b741-7cb14d6097b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "476a243f-5dc8-4c18-8dc1-4f7bbe6dea75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a982aec-62c1-4021-a311-9cdcbc6230be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feather-search",
+      "targets": [
+        ["css=.feather-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb78c4dc-7653-4daf-84a2-4d5fce279c45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b26acaec-ccc1-41dd-bf25-3a1e7db09438",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "730852b1-9a5f-4a73-8f6a-b9033d793550",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57719ac9-9557-490c-bda3-d42b1b20a807",
+      "comment": "",
+      "command": "click",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c584c72f-96cd-4396-8ca7-d964103b9e7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": " "
+    }, {
+      "id": "7f46ed82-1311-4679-828b-b75371e9096e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38bcaa6c-7ec4-405a-b140-299ed22d968c",
+    "name": "TC_04",
+    "commands": [{
+      "id": "e7c6a7a2-c7c4-4583-8ece-b2a7360e242b",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b057118-26f0-4a2e-8b68-1138ef33d28c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d344b1a-b182-4ceb-bac4-4474fe7984e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feather-search",
+      "targets": [
+        ["css=.feather-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48ea360d-268a-4bc0-a18b-801cae8800c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc2d283a-31f5-422e-ac20-f08b57607215",
+      "comment": "",
+      "command": "type",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "!@#$%^"
+    }, {
+      "id": "ef1df8b8-d124-4688-99f5-d182faac2ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69b3b033-1e39-4724-813a-e9893e0a0903",
+    "name": "TC_01",
+    "commands": [{
+      "id": "018e595e-86fb-4771-a501-3405896ce17d",
+      "comment": "",
+      "command": "open",
+      "target": "https://sneakerdaily.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0cc6842-ba58-490c-8a62-9920916f6159",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dad9133-c51d-49df-ae3f-e97b3c2d4ccc",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(1)",
+      "targets": [
+        ["css=circle:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8919e709-1a40-4a31-a0eb-363661bec5ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=dgwt-wcas-search-input-2",
+      "targets": [
+        ["id=dgwt-wcas-search-input-2", "id"],
+        ["css=#dgwt-wcas-search-input-2", "css:finder"],
+        ["xpath=//input[@id='dgwt-wcas-search-input-2']", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Giày"
+    }, {
+      "id": "004c7a4e-6e13-4a33-b841-3ab2919edf4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dgwt-wcas-active .dgwt-wcas-search-submit",
+      "targets": [
+        ["css=.dgwt-wcas-active .dgwt-wcas-search-submit", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f7277c7a-96c2-475a-9de3-07761054f768",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sneakerdaily.vn/"],
+  "plugins": []
+}

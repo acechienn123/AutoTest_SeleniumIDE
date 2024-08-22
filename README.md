@@ -4,6 +4,6 @@ https://sneakerdaily.vn/
 https://sneakerdaily.testrail.io/index.php?/runs/view/5&group_by=cases:section_id&group_order=asc
 
 Tài khoản Testrail của nhóm 09:
-    Email: dangquangduc210421dte@gmail.com
-    Mật khẩu: Anhduc123@
+Email: dangquangduc210421dte@gmail.com
+Mật khẩu: Anhduc123@
 

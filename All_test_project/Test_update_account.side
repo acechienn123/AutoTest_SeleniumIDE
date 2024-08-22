@@ -1,0 +1,736 @@
+{
+  "id": "fc827317-a130-402c-9e20-f964c1834d7f",
+  "version": "2.0",
+  "name": "Test01",
+  "url": "https://sneakerdaily.vn",
+  "tests": [{
+    "id": "4185de6a-e048-4ab0-b5bb-3ccfd497135d",
+    "name": "Test 01",
+    "commands": [{
+      "id": "f199788b-b4b7-48e8-b6a9-f0a7c9ae54fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "419aeae5-1cc7-4ca7-aad7-88d87929c27f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et-menu-account-btn > .feather",
+      "targets": [
+        ["css=.et-menu-account-btn > .feather", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b04b551c-fb84-459d-93b2-b97d173d8d70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản",
+      "targets": [
+        ["linkText=Tài khoản", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-account > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tài khoản')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://sneakerdaily.vn/my-account/edit-account/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ff0df1-e454-4d61-ae39-b63c5e3498ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > .woocommerce",
+      "targets": [
+        ["css=.post-content > .woocommerce", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f919e1ba-ff63-4739-8e88-6e588561f74d",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7f52e8-4a5d-47a6-b363-c21df4b155f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.woocommerce-EditAccountForm",
+      "targets": [
+        ["css=.woocommerce-EditAccountForm", "css:finder"],
+        ["xpath=//form[@action='']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//div/div/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be80e0b-4ff0-40e5-8870-94000da7b3aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_last_name",
+      "targets": [
+        ["id=account_last_name", "id"],
+        ["name=account_last_name", "name"],
+        ["css=#account_last_name", "css:finder"],
+        ["xpath=//input[@id='account_last_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b022c11-a6dc-4797-812e-7b673396d4de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > .woocommerce",
+      "targets": [
+        ["css=.post-content > .woocommerce", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a61ac67-8de3-4443-b10e-f603fb122934",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "136a7082-6cfd-479e-a067-c4ef438684c4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.woocommerce-MyAccount-navigation",
+      "targets": [
+        ["css=.woocommerce-MyAccount-navigation", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": "342,265.125"
+    }, {
+      "id": "176da7c8-35e8-48ce-ae7e-b4129f5e3aca",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.woocommerce-MyAccount-navigation",
+      "targets": [
+        ["css=.woocommerce-MyAccount-navigation", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": "342,265.125"
+    }, {
+      "id": "86d42be1-435b-45d8-bbd3-bfda2d73b542",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.woocommerce-MyAccount-navigation",
+      "targets": [
+        ["css=.woocommerce-MyAccount-navigation", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": "342,265.125"
+    }, {
+      "id": "888f756e-02b3-4fdb-8127-0924ec39ac8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > .woocommerce",
+      "targets": [
+        ["css=.post-content > .woocommerce", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c86bbfab-55ce-48b9-805d-2b9925e39233",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_email",
+      "targets": [
+        ["id=account_email", "id"],
+        ["name=account_email", "name"],
+        ["css=#account_email", "css:finder"],
+        ["xpath=//input[@id='account_email']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae958d9e-6d96-4926-a88b-f6b7860c662c",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fb863872-37c2-4c78-a01e-153c5d112f4f",
+    "name": "Test 02",
+    "commands": [{
+      "id": "d2247833-cdf4-4080-8775-a8af028d4b06",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ea1c7c0-625e-4258-bd9d-7a317be14a7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bc13b34-bb0c-4a99-8e4f-d4289d2646cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et-menu-account-btn circle",
+      "targets": [
+        ["css=.et-menu-account-btn circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7089393c-4cd9-4fce-a025-08cb04ed9e6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản",
+      "targets": [
+        ["linkText=Tài khoản", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-account > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tài khoản')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://sneakerdaily.vn/my-account/edit-account/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43cfe32b-b3a5-4193-b3fe-038b0feaaf82",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8853d04c-df49-4a59-a764-39329773ed70",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "duc@"
+    }, {
+      "id": "4c9a7266-8a10-4fa5-a4cf-d68640c74eaf",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20a5ddb4-37b7-4bf7-a3f7-55ad385bba9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d651560-42ca-49b4-901b-f49edfa127b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "quangduc"
+    }, {
+      "id": "b1812103-dbe8-44ae-9435-1f93c35f6d1d",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cdcf10c5-ae3b-4a7e-a49a-5f5c6c087b6e",
+    "name": "Test 03",
+    "commands": [{
+      "id": "1b47b6af-6f5d-4f5d-8f18-5c02bcebf2b9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc468ed0-5d4e-4a32-8d5c-25968ef16b20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12ede90e-2b80-4d7a-80b4-2a5205ba0e1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et-menu-account-btn > .feather",
+      "targets": [
+        ["css=.et-menu-account-btn > .feather", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6de11b-f132-4dcc-bf1b-3468ff76476a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản",
+      "targets": [
+        ["linkText=Tài khoản", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-account > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tài khoản')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://sneakerdaily.vn/my-account/edit-account/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39a35bdf-6440-47a3-9e2d-7bd15f06aa35",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f34aa4e-f027-420d-a477-1ba46a524e57",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c176087-97e4-450b-83d1-3e5926e3149c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc427456-9ec7-463a-9a48-9cf8e2214752",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "390c2366-a3e1-4fa2-9c7f-d28f051c8722",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "quangducccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }, {
+      "id": "82af42ef-bc6a-4eb5-a42c-9f89f178129e",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c79fb666-4071-4c79-8571-ecf53aedc1f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "quangduccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }, {
+      "id": "060e6ff5-4133-4129-82ca-53e83a3165ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b6d0eb0d-cdbd-4919-b355-f65d14699212",
+    "name": "Test 04",
+    "commands": [{
+      "id": "5d1da6bf-a9a3-432e-aae1-0f522fd4f4b8",
+      "comment": "",
+      "command": "open",
+      "target": "/my-account/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26834065-bddd-4359-928b-5add7a485d4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46f0eeef-bf0e-4f82-bc7d-ecad014475b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản",
+      "targets": [
+        ["linkText=Tài khoản", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-account > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tài khoản')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://sneakerdaily.vn/my-account/edit-account/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e6ff32b-314c-45b1-99cb-a70cb196a09f",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d363070-e0b3-4da8-a085-aadb0499726b",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc62c0b-1b1a-4750-8526-3ad72aa6aa25",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcec7078-8e74-44e0-a91b-028607d7f7a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c252fa-dcde-415c-b581-a5e0425d6c28",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "quang120duc"
+    }, {
+      "id": "b038aa0d-b29a-4bb5-88cd-a757541ed70c",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_last_name",
+      "targets": [
+        ["id=account_last_name", "id"],
+        ["name=account_last_name", "name"],
+        ["css=#account_last_name", "css:finder"],
+        ["xpath=//input[@id='account_last_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "dang123123"
+    }, {
+      "id": "a5712836-baa7-4d29-bc2c-28f32eb8ae98",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a2e6f3-caf7-4329-9708-702b9be5ea17",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e54b9bab-a829-4541-9254-c0db888b6110",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b17515de-c342-4779-a01e-cda2c1ae1e79",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "quangduc123123"
+    }, {
+      "id": "fe346b76-5e7f-4d3a-90d1-6288c5b3f1a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a40a28c3-c846-48e3-b3f9-82dc5e908814",
+    "name": "Test 05",
+    "commands": [{
+      "id": "5bb7b850-1169-4f2e-abb7-86f478d91dd2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9626837-5060-4bf6-97b0-94bf4a8603bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e13d59de-260f-47e0-a65f-b33e6b1414b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.et-menu-account-btn circle",
+      "targets": [
+        ["css=.et-menu-account-btn circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7672d1a0-55df-4c98-96f7-97eeb330122f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản",
+      "targets": [
+        ["linkText=Tài khoản", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-account > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tài khoản')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://sneakerdaily.vn/my-account/edit-account/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a039504a-d1e8-407f-a5af-12dcc6947e37",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec6b3b4d-d025-4429-bf40-a6be1bc03528",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > .woocommerce",
+      "targets": [
+        ["css=.post-content > .woocommerce", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5066c870-ea9c-4948-ba87-f942ef9855aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[3]/div/div[3]/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "79a85209-c101-4d14-ac3d-56fe984e2129",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4185de6a-e048-4ab0-b5bb-3ccfd497135d"]
+  }],
+  "urls": ["https://sneakerdaily.vn/"],
+  "plugins": []
+}
